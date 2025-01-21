@@ -23,6 +23,8 @@
             background-color: orange;
             display: flex;
             margin:18px ;
+            width: 100px;
+            padding: 5px;
             
             
             
@@ -75,7 +77,12 @@
                     border: none;
                 }
             }
-       
+            @media screen and (max-width : 400px) {
+                .container{
+                    flex-direction: column;
+                
+            }
+        }
 
     </style>
 </head>
