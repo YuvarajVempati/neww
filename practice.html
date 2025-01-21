@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: xx-large;
+        }
+        .container{
+            border: solid;
+            background-color: brown;
+            display: flex;
+            justify-content: space-between;
+            
+           
+        
+        }
+        .org{
+            
+            border: 2px solid;
+            background-color: orange;
+            display: flex;
+            margin:18px ;
+            
+            
+            
+
+
+        }
+        .container1{
+           
+            border: solid;
+            background-color :brown ;
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            box-sizing: border-box;
+            
+           
+           
+            
+
+        }
+        .item1{
+            box-sizing: border-box;
+            
+            border: solid;
+            background-color: yellow;
+            margin: 10px;
+          
+
+        }
+        .item2{
+           box-sizing: border-box;
+            border: solid;
+            background-color: green;
+            margin: 10px;
+
+        }
+        @media screen and (max-width : 500px){
+            .item1{
+                display: none;
+                
+            }
+                .item2{
+                    
+                    background-color: white;
+                    color: white;   
+                    
+                    
+                }
+                .container1{
+                    border: none;
+                }
+            }
+       
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="org">Orange</div>
+        <div class="container1">
+            <div class="item1">Yellow</div>
+            <div class="item2">Green</div>
+        </div>
+    </header>
+    
+</body>
+</html>
