@@ -1,0 +1,249 @@
+
+.head{
+    width: 100%;
+    height: 100vh;
+    
+}
+.image{
+    background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.yy{
+    background-color: pink;
+    display: flex ;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    color: white;
+   margin: 0px;
+   padding: 0px;
+    
+    align-content: center;
+
+}
+.ii{
+    width:590px;
+}
+.ll{
+    width: 590px;
+}
+
+main p{
+    color: gray;
+    font-size: 2em;
+}
+main{
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+}
+i{
+    padding-top: 30px;
+    font-size: 1rem;
+}
+.one{
+    background-color: black;
+    color: white;
+   text-align: center;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.yu{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.yu:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+
+
+.img3{
+    background-image: url(https://www.w3schools.com/w3images/flowers.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+
+    
+}
+h3{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: white;
+    font-size: 3rem;
+    
+
+
+}
+h6{
+    position: absolute;
+    top:55%;
+    left:43%;
+    font-size: 2rem;
+    color: white;
+
+}
+h5{
+    color: gray;
+    font-size: 2rem;
+}
+.container{
+    margin: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    
+    
+}
+
+.item1 p{
+    font-size: 1rem;
+    color: black;
+    
+}
+.item2 p{
+    font-size: 1rem;
+    color: black;
+}
+.container2{
+    background-color:bisque;
+    color: black;
+   display: flex;
+   flex-direction: column;
+
+}
+.dd{
+   text-align: center;
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dd>p:nth-last-child(1){
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+.dd>p:nth-last-child(1):hover{
+    background-color: gray;
+    color: black;
+
+}
+.powered {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding-top: 15px;
+    height: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+bottom{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    z-index: 999;
+
+}
+nav{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+nav:hover{
+    background-color: gray;
+    
+    
+
+}
+#last:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width : 500px) {
+    .yu{
+        right: 00px;
+
+        
+    }
+    @media screen and (max-width : 500px){
+        h3{
+            top: 30%;
+            left: 45px;
+            text-align: center;
+
+        }
+        h6{
+            top:40%;
+            left:45px;
+            text-align: center;
+        }
+    
+        .item1 { 
+            font-size: 1rem;
+            
+        }
+        .item2{
+            font-size: 1rem;
+        }
+        
+    }
+    @media  screen and (max-width : 500px) and (min-width  : 1px){
+        .ii{
+            width: 400px;
+        }
+        .ll{
+            width: 400px;
+        }
+        
+    }
+    
