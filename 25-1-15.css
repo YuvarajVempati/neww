@@ -1,0 +1,337 @@
+body{
+    background-color:rgb(14,4,4,14);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    
+}
+
+h2{
+    color: white;
+}
+P{
+    color: white;
+    text-align: center;
+
+    
+}
+    
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    grid-template-columns:repeat(5,1fr);
+    height:500px;
+    
+    grid-template-columns: repeat(minmax(350px,1fr));
+
+    grid-template-areas:
+     'a b b c c'
+     'd b b e e'
+     'f g h i j'
+     'k l h m n'
+    ;
+}
+.item{
+    text-align: center;
+
+    background-color: red;
+    
+place-content: center;
+    
+
+    
+    
+  
+
+}
+
+.item1{
+   
+    grid-area: a;
+   
+
+    
+   
+   
+}
+.item2{
+    grid-area: b;
+    background-color: violet;
+   
+
+}
+.item3{
+    grid-area: c;
+    
+    background-color: aqua;
+
+}
+
+.item4{
+    grid-area: d;
+    
+    
+
+}
+.item5{
+
+    grid-area: e;
+    background-color: aqua;
+}
+.item6{
+    grid-area: f;
+
+}
+.item7{
+    grid-area: g;
+
+}
+.item8{
+    grid-area: h;
+    background-color: violet;
+
+
+}
+.item9{
+    grid-area: i;
+
+   
+}
+.item10{
+    grid-area: j;
+
+}
+.item11{
+    grid-area: k;
+
+}
+.item12{
+    grid-area: l;
+
+}
+.item13{
+    grid-area: m;
+
+}
+.item14{
+    grid-area: n;
+    
+
+} 
+.grid-container1{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:70px 1fr 1fr 70px;
+    text-align: center;
+    height: 90vh;
+    grid-template-areas: 
+    'a a a'
+    'b c c'
+    'b d e'
+    'f f f';
+
+}
+.second{
+    place-content: center;
+    
+}
+.header{
+    background-color:blueviolet;
+    grid-area: a;
+
+    
+}
+.sidebar{
+    background-color:aqua;
+    grid-area: b;
+
+}
+.content-1{
+    background-color: blue;
+    grid-area: c;
+    
+
+}
+.content-2{
+    background-color: blue;
+    grid-area: d;
+    
+}
+.content-3{
+    background-color:blue;
+    grid-area: e;
+    
+}
+.footer{
+    background-color: blueviolet;
+    grid-area: f;
+
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-areas: 
+    'a b b c'
+    'a d e f'
+    'a g h f'
+    ;
+    gap: 10px;
+    height: 80vh;
+    
+}
+.color1{
+    grid-area: a;
+    background-color: greenyellow;
+  
+
+}
+.color2{
+    background-color: greenyellow;
+    grid-area: b;
+  
+    
+    
+}
+.color3{
+    background-color: greenyellow;
+    grid-area: c;
+}
+.color4{
+    background-color:orange;
+    grid-area: d;
+
+
+}
+.color5{
+    background-color: red;
+    grid-area: e;
+    
+}
+.color6{
+    background-color: greenyellow;
+    grid-area: f;
+   
+}
+.color7{
+    background-color:red;
+    grid-area: g;
+    
+}
+.color8{
+    background-color: orange;
+    grid-area: h;
+}
+
+
+
+@media screen and (max-width : 500px){
+    .grid-container{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+     'a '
+     'b'
+     'c'
+     'd'
+     'e'
+     'f'
+     'g'
+     'h'
+     'i'
+     'j'
+     'k'
+     'l'
+     'm'
+     'n'
+    ;
+       
+    }
+
+
+    
+}
+@media screen and (min-width : 501px) and (max-width : 700px){
+    .grid-container{
+    grid-template-columns:repeat(2,1fr);
+    grid-template-areas:
+     'a b'
+     'c d'
+     'e f' 
+     'g h'
+     'i j' 
+     'k l'
+     'm n'
+     
+    ;
+        
+       
+    }
+    
+}
+
+@media screen and (max-width : 500px){
+    .grid-container1{
+    grid-template-columns:1fr;
+    grid-template-rows:50px 1fr 1fr 1fr 1fr 50px;
+    grid-template-areas: 
+    'a '
+    'b'
+    'c'
+    'd'
+    'e'
+    'f'
+    ;
+    }
+
+
+    
+}
+@media screen and (min-width : 501px) and (max-width : 700px){
+    .grid-container1{
+        
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'e f' 
+    ;
+    }
+
+    
+    
+}
+@media screen and (max-width : 500px){
+    .grid-container2{
+    grid-template-columns:1fr;
+    grid-template-areas: 
+     'a'
+     'b'
+     'c'
+     'd'
+     'e'
+     'f'
+     'g'
+     'h'
+     ;
+    }
+    
+    
+}
+@media screen and (min-width : 501px) and (max-width : 700px){
+    .grid-container2{
+        
+    grid-template-columns:repeat(2,1fr);
+    grid-template-areas: 
+     'a b'
+     'c d'
+     'e f' 
+     'g h';
+    }
+   
+    
+}
