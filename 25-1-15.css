@@ -40,6 +40,7 @@ P{
 
     background-color: red;
     
+    
 place-content: center;
     
 
@@ -50,8 +51,10 @@ place-content: center;
 }
 
 .item1{
-   
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
     grid-area: a;
+    
+    
    
 
     
@@ -61,6 +64,8 @@ place-content: center;
 .item2{
     grid-area: b;
     background-color: violet;
+    background: linear-gradient( to top ,violet blueviolet , 70%);
+    background-color: bl;
    
 
 }
@@ -73,6 +78,7 @@ place-content: center;
 
 .item4{
     grid-area: d;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
     
     
 
@@ -84,10 +90,12 @@ place-content: center;
 }
 .item6{
     grid-area: f;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
 
 }
 .item7{
     grid-area: g;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
 
 }
 .item8{
@@ -98,27 +106,33 @@ place-content: center;
 }
 .item9{
     grid-area: i;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
 
    
 }
 .item10{
     grid-area: j;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
 
 }
 .item11{
     grid-area: k;
+    background: linear-gradient(to top , bisque ,palevioletred 60%) ;
 
 }
 .item12{
     grid-area: l;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
 
 }
 .item13{
     grid-area: m;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
 
 }
 .item14{
     grid-area: n;
+    background: linear-gradient(to top , bisque 10%,palevioletred 60%) ;
     
 
 } 
