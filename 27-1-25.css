@@ -1,0 +1,279 @@
+body{
+    display: block;
+}
+h1{
+    text-align: center;
+
+}
+.bars{
+    
+    border: 2px solid;
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center ;
+    gap: 10px;
+    padding-top: 80px;
+    
+  
+  
+   
+    
+    
+
+
+}
+.bar{
+    
+    
+    border-radius: 7px;
+
+    
+
+}
+.b1{
+    position: relative;
+    height: 300px;
+    width: 10vw;
+
+}
+.bar1{
+    animation-name:bar1 ;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: infinite;
+    background-image: linear-gradient(#ff00ff,blueviolet);
+    height: 300px;
+    width: 10vw;
+    position: absolute;
+    bottom: 0px;
+    
+    
+
+    
+}
+.b2{
+    position: relative;
+    height: 300px;
+    width: 10vw;
+}
+.bar2{
+    animation-name: bar2 ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#ff00ff,blueviolet);
+    
+    height:300px ;
+    width: 10vw;
+    position: absolute;
+    bottom: 0px;
+    
+
+}
+.b3{
+    position: relative;
+    height: 300px;
+    width: 10vw;
+}
+.bar3{
+    animation-name: bar3;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#ff00ff,blueviolet);
+    height:300px ;
+    width: 10vw;
+    position: absolute;
+    bottom: 0px;
+}
+.b4{
+    position: relative;
+    height:300px ;
+    width: 10vw;
+
+}
+.bar4{
+    animation-name: bar4;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#ff00ff,blueviolet);
+    height:300px ;
+    width:10vw;
+    position: absolute;
+    bottom: 0px;
+}
+.b5{
+    position: relative;
+    height: 300px;
+    width: 10vw;
+}
+.bar5{
+    animation-name: bar5;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#ff00ff,blueviolet);
+    height:300px ;
+    width: 10vw;
+    position: absolute;
+    bottom: 0px;
+}
+.b6{
+    height: 300px;
+    position: relative;
+    width: 10vw;
+}
+.bar6{
+    animation-name: bar6;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#ff00ff,blueviolet);
+    height:300px;
+    width: 10vw;
+    position: absolute;
+    bottom: 0px;
+}
+@keyframes bar1{
+    from{
+        height: 40px;
+    }
+    to{
+        height: 150px;
+    }
+}
+@keyframes bar2{
+    from{
+        height: 90px;
+    }
+    to{
+        height: 200px;
+    }
+}
+@keyframes bar3{
+    from{
+        height: 70px;
+
+    }
+    to{
+        height: 300px;
+    }
+}
+@keyframes bar4{
+    from{
+        height: 50px;
+    }
+    to{
+        height: 200px;
+    }
+}
+@keyframes bar5{
+    from{
+        height: 70px;
+    }
+    to{
+        height: 150px;
+
+    }
+}
+@keyframes bar6{
+    from{
+        height: 70px;
+
+    }
+    to{
+        height:100px ;
+
+    }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.dots{
+   width: 100px;
+   margin: 40px auto;
+    
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    place-items: center;
+    
+    height: 200px;
+    width: 200px;
+    border:2px solid ;
+
+}
+.d{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translateY(0);
+    animation: rise 4s infinite ease-in-out;
+}
+        
+
+
+
+    
+    
+
+
+.dot1{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+
+    
+    
+
+.dot2{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: red;
+    animation-delay: 0.3s;
+    
+}
+    
+
+.dot3{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    animation-delay: 0.6s;
+    background-color: yellow;
+   
+    
+
+}
+.dot4{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    animation-delay: 0.9s;
+    background-color: green;
+}
+@keyframes rise{
+0% {
+    transform: translateX(0);
+}
+
+50% {
+    transform: translateY(-10px);
+}
+75% {
+    transform: translatex(0);
+}
+50%, 75% {
+    animation-delay: 1s;
+} 
+100%{
+    transform: translate(0px);
+}
+}
