@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            position: relative;
+            left:500px;
+            width:200px;
+            height: 200px;
+            background-color: aqua;
+            animation-name: gopal;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes gopal{
+            from{
+                width:200px;
+                background-color: red;
+                transform: translate(500px);
+               
+            }
+            to{
+                width: 100px;
+                background-color: bisque;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="one"></div>
+    
+    
+</body>
+</html>
