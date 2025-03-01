@@ -12,7 +12,7 @@ console.log(add(2,3))
 var square=(n)=>n*n
 console.log(square(3))
 
-//4. singlr parameter syntax
+//4. single parameter syntax
 var functionname=a=>a*a
 
 //5.concise body vas block body:
